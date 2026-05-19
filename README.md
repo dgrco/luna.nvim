@@ -4,21 +4,12 @@ A Neovim colorscheme inspired by **oh-lucy**, sharing its dark navy base and mut
 
 ---
 
-## Variants
-
-| Name | Accent colour | Colorscheme name |
-|------|--------------|-----------------|
-| **default** | Soft dusty-red `#C97070` | `luna` |
-| **sol** | Warm golden-yellow `#D4B96A` | `luna-sol` |
-
----
-
 ## Installation
 
 ### lazy.nvim
 ```lua
 {
-  "yourname/luna.nvim",
+  "dgrco/luna.nvim",
   priority = 1000,
   config = function()
     require("luna").setup({
@@ -39,7 +30,7 @@ A Neovim colorscheme inspired by **oh-lucy**, sharing its dark navy base and mut
 ### packer.nvim
 ```lua
 use {
-  "yourname/luna.nvim",
+  "dgrco/luna.nvim",
   config = function()
     require("luna").setup({ variant = "default" })
     vim.cmd("colorscheme luna")
@@ -128,24 +119,3 @@ include=~/.config/foot/themes/luna
 | **Mini suite** | All mini.nvim modules with highlight groups |
 | **Markdown** | render-markdown.nvim, headlines.nvim, standard markdownXxx groups |
 | **Misc** | todo-comments, rainbow-delimiters, copilot.vim, treesitter-context, vim-startify, flutter-tools, cmake syntax |
-
----
-
-## Colour palette
-
-```
-Background    #1B1D26    Dark navy
-Dark bg       #14161D    Deeper navy (floats, sidebar)
-Foreground    #D7D7D7    Soft white
-Comment       #5E6173    Muted slate
-
-Keyword       #E07070    Soft red (conditionals, keywords)
-Accent1       #C97070    Dusty rose-red  [default]  /  #D4B96A golden [sol]
-Function      #74C7A4    Seafoam green
-Type          #8DBBD3    Steel blue
-String        #E3CF65    Warm yellow
-Number        #E0828D    Coral
-Boolean       #AF98E6    Soft purple
-Error         #D95555    Clear red
-Warning       #E39A65    Warm orange
-```
