@@ -37,15 +37,15 @@ local base = {
   vsplit       = "#21252D",
 
   -- Semantic colours (shared)
-  red_err      = "#D95555",
-  keyword      = "#E07070",
-  green_func   = "#74C7A4",
-  green        = "#76C5A4",
-  blue_type    = "#8DBBD3",
-  orange       = "#E0828D",
-  orange_warn  = "#E39A65",
-  boolean      = "#AF98E6",
-  yellow       = "#C4B05A",
+  red_err      = "#E05555",
+  keyword      = "#E8756B",
+  green_func   = "#6DCFA8",
+  green        = "#6ECFA8",
+  blue_type    = "#7EC4DE",
+  orange       = "#E8717E",
+  orange_warn  = "#E8A05A",
+  boolean      = "#B8A0EE",
+  yellow       = "#C8B55E",
 
   -- Git / diff
   diff_add     = "#8CD881",
@@ -66,14 +66,14 @@ local base = {
 -- ─────────────────────────────────────────────────────────────
 local variants = {
   default = {
-    accent1         = "#C97070",
-    keyword         = "#E07070",
-    variant_name    = "luna",
+    accent1      = "#D07878",
+    keyword      = "#E8756B",
+    variant_name = "luna",
   },
   sol = {
-    accent1         = "#D4B96A",
-    keyword         = "#D4956A",
-    variant_name    = "luna-sol",
+    accent1      = "#D4B96A",
+    keyword      = "#D4956A",
+    variant_name = "luna-sol",
   },
 }
 

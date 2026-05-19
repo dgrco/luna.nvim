@@ -1,11 +1,5 @@
-# Luna – default variant (soft-red accent)
-# Foot terminal theme  (foot ≥ 1.8)
-#
-# Place in ~/.config/foot/themes/luna
-# Then in foot.ini:
-#   [colors]
-#   alpha=1.0
-#   include=~/.config/foot/themes/luna
+# Luna – default variant
+# Foot terminal theme
 
 [colors]
 background=1B1D26
@@ -14,26 +8,25 @@ foreground=D7D7D7
 selection-background=5E697E
 selection-foreground=D7D7D7
 
-# Foot uses foreground color for cursor by default — override in foot.ini:
-#   [cursor]
-#   color=1B1D26 D7D7D7
+# [cursor]
+# color=1B1D26 D7D7D7
 
 regular0=14161D
-regular1=E07070
-regular2=74C7A4
-regular3=C4B05A
-regular4=8DBBD3
-regular5=C97070
-regular6=AF98E6
+regular1=E8756B
+regular2=6DCFA8
+regular3=C8B55E
+regular4=7EC4DE
+regular5=D07878
+regular6=B8A0EE
 regular7=D7D7D7
 
 bright0=272932
-bright1=D95555
-bright2=76C5A4
-bright3=E39A65
+bright1=E05555
+bright2=6ECFA8
+bright3=E8A05A
 bright4=6CAEC0
-bright5=E0828D
-bright6=8DBBD3
+bright5=E8717E
+bright6=7EC4DE
 bright7=E9E9E9
 
-urls=C4B05A
+urls=C8B55E

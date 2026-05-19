@@ -236,7 +236,7 @@ function M.setup(colors)
     ["@todo"]                    = { fg = c.orange, bold = true },
     ["@type"]                    = { fg = c.blue_type },
     ["@type.builtin"]            = { fg = c.red_key_w },
-    ["@type.definition"]         = { fg = c.red_key_w },
+    ["@type.definition"]         = { fg = c.blue_type },
     ["@type.qualifier"]          = { fg = c.red_key_w },
     ["@variable"]                = { fg = c.white, italic = cfg.italic_variables },
     ["@variable.builtin"]        = { fg = c.pink },
