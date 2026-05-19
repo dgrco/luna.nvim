@@ -12,7 +12,7 @@ cursor = "#D7D7D7"
 
 [colors.vi_mode_cursor]
 text   = "#1B1D26"
-cursor = "#D07878"
+cursor = "#BDA9D4"
 
 [colors.search.matches]
 foreground = "#1B1D26"
@@ -20,11 +20,11 @@ background = "#5E697E"
 
 [colors.search.focused_match]
 foreground = "#1B1D26"
-background = "#D07878"
+background = "#BDA9D4"
 
 [colors.hints.start]
 foreground = "#1B1D26"
-background = "#D07878"
+background = "#BDA9D4"
 
 [colors.hints.end]
 foreground = "#1B1D26"
@@ -40,7 +40,7 @@ red     = "#E8756B"
 green   = "#6DCFA8"
 yellow  = "#C8B55E"
 blue    = "#7EC4DE"
-magenta = "#D07878"
+magenta = "#BDA9D4"
 cyan    = "#B8A0EE"
 white   = "#D7D7D7"
 

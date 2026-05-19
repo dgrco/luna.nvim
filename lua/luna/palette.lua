@@ -66,7 +66,7 @@ local base = {
 -- ─────────────────────────────────────────────────────────────
 local variants = {
   default = {
-    accent1      = "#D07878",
+    accent1      = "#BDA9D4",
     keyword      = "#E8756B",
     variant_name = "luna",
   },
