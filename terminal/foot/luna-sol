@@ -12,19 +12,21 @@ background=1B1D26
 foreground=D7D7D7
 
 selection-background=5E697E
-selection-foreground=495163
+selection-foreground=D7D7D7
 
-# Regular colours
-regular0=14161D   # black
-regular1=D4956A   # red   (keyword / amber)
-regular2=74C7A4   # green
-regular3=E3CF65   # yellow
-regular4=8DBBD3   # blue
-regular5=D4B96A   # magenta (accent1 / golden yellow)
-regular6=AF98E6   # cyan
-regular7=D7D7D7   # white
+# Foot uses foreground color for cursor by default — override in foot.ini:
+#   [cursor]
+#   color=1B1D26 D7D7D7
 
-# Bright colours
+regular0=14161D
+regular1=D4956A
+regular2=74C7A4
+regular3=C4B05A
+regular4=8DBBD3
+regular5=D4B96A
+regular6=AF98E6
+regular7=D7D7D7
+
 bright0=272932
 bright1=D95555
 bright2=76C5A4
@@ -34,14 +36,4 @@ bright5=E0828D
 bright6=8DBBD3
 bright7=E9E9E9
 
-# Dim colours
-dim0=14161D
-dim1=9A6A48
-dim2=5A9980
-dim3=A8984A
-dim4=6A8E9E
-dim5=9A8A50
-dim6=7D7AAF
-dim7=8A8A8A
-
-urls=E3CF65
+urls=C4B05A

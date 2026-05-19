@@ -7,26 +7,25 @@
 #   import = ["~/.config/alacritty/themes/luna.toml"]
 
 [colors.primary]
-background = "#1B1D26"
-foreground = "#D7D7D7"
-dim_foreground = "#5E6173"
+background        = "#1B1D26"
+foreground        = "#D7D7D7"
 bright_foreground = "#E9E9E9"
 
 [colors.cursor]
-text   = "#D7D7D7"
-cursor = "#AEAFAD"
+text   = "#1B1D26"
+cursor = "#D7D7D7"
 
 [colors.vi_mode_cursor]
-text   = "#D7D7D7"
+text   = "#1B1D26"
 cursor = "#C97070"
 
 [colors.search.matches]
-foreground = "#555B6C"
-background = "#E0828D"
+foreground = "#1B1D26"
+background = "#5E697E"
 
 [colors.search.focused_match]
 foreground = "#1B1D26"
-background = "#E0828D"
+background = "#C97070"
 
 [colors.hints.start]
 foreground = "#1B1D26"
@@ -37,38 +36,28 @@ foreground = "#1B1D26"
 background = "#8DBBD3"
 
 [colors.selection]
-text       = "#495163"
+text       = "#D7D7D7"
 background = "#5E697E"
 
 [colors.normal]
-black   = "#14161D"   # black
-red     = "#E07070"   # keyword / soft-red
-green   = "#74C7A4"   # functions
-yellow  = "#E3CF65"   # strings / yellow
-blue    = "#8DBBD3"   # types / blue
-magenta = "#C97070"   # accent1 (soft red replaces pink)
-cyan    = "#AF98E6"   # boolean / purple-cyan
-white   = "#D7D7D7"   # foreground
+black   = "#14161D"
+red     = "#E07070"
+green   = "#74C7A4"
+yellow  = "#C4B05A"
+blue    = "#8DBBD3"
+magenta = "#C97070"
+cyan    = "#AF98E6"
+white   = "#D7D7D7"
 
 [colors.bright]
-black   = "#272932"   # black1
-red     = "#D95555"   # error red
-green   = "#76C5A4"   # green
-yellow  = "#E39A65"   # warning orange
-blue    = "#6CAEC0"   # diff change / bright blue
-magenta = "#E0828D"   # orange (used as bright magenta)
-cyan    = "#8DBBD3"   # blue_type bright
-white   = "#E9E9E9"   # bright white
-
-[colors.dim]
-black   = "#14161D"
-red     = "#A05050"
-green   = "#5A9980"
-yellow  = "#A8984A"
-blue    = "#6A8E9E"
-magenta = "#9A5858"
-cyan    = "#7D7AAF"
-white   = "#8A8A8A"
+black   = "#272932"
+red     = "#D95555"
+green   = "#76C5A4"
+yellow  = "#E39A65"
+blue    = "#6CAEC0"
+magenta = "#E0828D"
+cyan    = "#8DBBD3"
+white   = "#E9E9E9"
 
 [colors.footer_bar]
 foreground = "#D7D7D7"

@@ -38,14 +38,14 @@ local base = {
 
   -- Semantic colours (shared)
   red_err      = "#D95555",
-  keyword      = "#E07070",   -- soft red for keywords/conditionals
+  keyword      = "#E07070",
   green_func   = "#74C7A4",
   green        = "#76C5A4",
   blue_type    = "#8DBBD3",
   orange       = "#E0828D",
   orange_warn  = "#E39A65",
   boolean      = "#AF98E6",
-  yellow       = "#E3CF65",
+  yellow       = "#C4B05A",
 
   -- Git / diff
   diff_add     = "#8CD881",
@@ -65,17 +65,14 @@ local base = {
 --  Variant accent colours
 -- ─────────────────────────────────────────────────────────────
 local variants = {
-  -- Default: soft dusty-red accent (replaces oh-lucy's bright pink)
   default = {
-    accent1         = "#C97070",   -- soft red  (was "#BDA9D4" pink)
-    keyword         = "#E07070",   -- keyword / conditional (keeps existing)
+    accent1         = "#C97070",
+    keyword         = "#E07070",
     variant_name    = "luna",
   },
-
-  -- Sol: warm golden-yellow accent
   sol = {
-    accent1         = "#D4B96A",   -- soft yellow (was "#BDA9D4" pink)
-    keyword         = "#D4956A",   -- slightly amber-shifted keyword
+    accent1         = "#D4B96A",
+    keyword         = "#D4956A",
     variant_name    = "luna-sol",
   },
 }
@@ -88,9 +85,8 @@ function M.get(variant)
   local v = variants[variant] or variants["default"]
   local colors = vim.tbl_extend("force", base, v)
 
-  -- Convenience aliases so theme.lua can stay readable
-  colors.pink      = colors.accent1   -- all `pink` refs in oh-lucy → accent1
-  colors.red_key_w = colors.keyword   -- all keyword refs
+  colors.pink      = colors.accent1
+  colors.red_key_w = colors.keyword
   colors.white     = colors.fg_bright
   colors.white1    = colors.fg
   colors.dark      = colors.bg_dark
@@ -100,7 +96,6 @@ function M.get(variant)
   return colors
 end
 
--- Return both variants for terminal-theme generation scripts
 M.variants = variants
 M.base     = base
 

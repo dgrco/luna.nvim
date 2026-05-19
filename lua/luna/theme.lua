@@ -90,7 +90,7 @@ function M.setup(colors)
     Directory     = { fg = c.white },
     Title         = { fg = c.gray_punc },
     EndOfBuffer   = { fg = c.non_text },
-    FloatBorder   = { fg = c.gray2, bg = "NONE" },
+    FloatBorder   = { fg = c.gray2, bg = c.black },
     WinBar        = { fg = c.fg, bg = bg(c.bg) },
     WinBarNC      = { fg = c.comment, bg = bg(c.bg) },
 
@@ -345,7 +345,7 @@ function M.setup(colors)
     -- ─── nvim-cmp ───────────────────────────────────────────────
     CmpItemAbbrDeprecated    = { fg = c.comment, strikethrough = true },
     CmpDocumentation         = { fg = c.fg },
-    CmpDocumentationBorder   = { fg = c.gray2 },
+    CmpDocumentationBorder   = { fg = c.gray2, bg = c.bg_float },
     CmpItemAbbr              = { fg = c.fg },
     CmpItemAbbrMatch         = { fg = c.blue_type, bold = true },
     CmpItemAbbrMatchFuzzy    = { fg = c.blue_type },
@@ -379,7 +379,7 @@ function M.setup(colors)
 
     -- ─── blink.cmp (modern cmp replacement) ─────────────────────
     BlinkCmpMenu          = { fg = c.fg, bg = c.black },
-    BlinkCmpMenuBorder    = { fg = c.gray2 },
+    BlinkCmpMenuBorder    = { fg = c.gray2, bg = c.black },
     BlinkCmpMenuSelection = { fg = c.fg, bg = c.gray1 },
     BlinkCmpScrollBarThumb= { bg = c.gray2 },
     BlinkCmpScrollBarGutter= { bg = c.black },
@@ -388,7 +388,7 @@ function M.setup(colors)
     BlinkCmpLabelMatch    = { fg = c.blue_type, bold = true },
     BlinkCmpKind          = { fg = c.green_func },
     BlinkCmpDoc           = { fg = c.fg, bg = c.bg_float },
-    BlinkCmpDocBorder     = { fg = c.gray2 },
+    BlinkCmpDocBorder     = { fg = c.gray2, bg = c.bg_float },
     BlinkCmpDocSeparator  = { fg = c.gray_punc },
     BlinkCmpSignatureHelp = { fg = c.fg, bg = c.bg_float },
 
