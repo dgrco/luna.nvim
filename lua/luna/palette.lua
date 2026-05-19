@@ -1,7 +1,5 @@
 -- luna/palette.lua
 -- Palette variants for the Luna colorscheme.
--- Variant "default" uses a soft red accent (replacing oh-lucy pink).
--- Variant "sol"     uses a soft yellow accent.
 
 local M = {}
 
@@ -66,11 +64,6 @@ local base = {
 -- ─────────────────────────────────────────────────────────────
 --  Variant accent colours
 -- ─────────────────────────────────────────────────────────────
---  "accent1" maps to what oh-lucy called `pink`  (used for constants,
---  booleans, labels, special comments, cmake keywords, etc.)
---  "accent2" maps to what oh-lucy called `red_key_w` (keyword colour).
---  Each variant can override any base value it needs.
-
 local variants = {
   -- Default: soft dusty-red accent (replaces oh-lucy's bright pink)
   default = {

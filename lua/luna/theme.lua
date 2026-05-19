@@ -57,7 +57,7 @@ function M.setup(colors)
 
     -- Menus / popups
     Pmenu         = { fg = c.white1, bg = c.black },
-    PmenuSel      = { fg = c.line_nr, bg = c.black },
+    PmenuSel      = { fg = c.fg, bg = c.gray1 },
     PmenuSbar     = { bg = c.gray0 },
     PmenuThumb    = { bg = c.black },
     WildMenu      = { fg = c.fg },
@@ -380,7 +380,7 @@ function M.setup(colors)
     -- ─── blink.cmp (modern cmp replacement) ─────────────────────
     BlinkCmpMenu          = { fg = c.fg, bg = c.black },
     BlinkCmpMenuBorder    = { fg = c.gray2 },
-    BlinkCmpMenuSelection = { bg = c.black1 },
+    BlinkCmpMenuSelection = { fg = c.fg, bg = c.gray1 },
     BlinkCmpScrollBarThumb= { bg = c.gray2 },
     BlinkCmpScrollBarGutter= { bg = c.black },
     BlinkCmpLabel         = { fg = c.fg },
@@ -396,7 +396,7 @@ function M.setup(colors)
     TelescopeBorder         = { fg = c.white,      bg = bg(c.bg) },
     TelescopeMatching       = { fg = c.blue_type,  bold = true },
     TelescopePromptPrefix   = { fg = c.green_func },
-    TelescopeSelection      = { fg = c.line_nr,    bg = c.black },
+    TelescopeSelection      = { fg = c.fg,    bg = c.gray1 },
     TelescopeSelectionCaret = { fg = c.pink },
     TelescopeMultiSelection = { fg = c.pink },
     TelescopeNormal         = { fg = c.fg, bg = bg(c.bg) },
