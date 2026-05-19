@@ -1,0 +1,47 @@
+# Luna Sol – sol variant (golden-yellow accent)
+# Foot terminal theme  (foot ≥ 1.8)
+#
+# Place in ~/.config/foot/themes/luna-sol
+# Then in foot.ini:
+#   [colors]
+#   alpha=1.0
+#   include=~/.config/foot/themes/luna-sol
+
+[colors]
+background=1B1D26
+foreground=D7D7D7
+
+selection-background=5E697E
+selection-foreground=495163
+
+# Regular colours
+regular0=14161D   # black
+regular1=D4956A   # red   (keyword / amber)
+regular2=74C7A4   # green
+regular3=E3CF65   # yellow
+regular4=8DBBD3   # blue
+regular5=D4B96A   # magenta (accent1 / golden yellow)
+regular6=AF98E6   # cyan
+regular7=D7D7D7   # white
+
+# Bright colours
+bright0=272932
+bright1=D95555
+bright2=76C5A4
+bright3=E39A65
+bright4=6CAEC0
+bright5=E0828D
+bright6=8DBBD3
+bright7=E9E9E9
+
+# Dim colours
+dim0=14161D
+dim1=9A6A48
+dim2=5A9980
+dim3=A8984A
+dim4=6A8E9E
+dim5=9A8A50
+dim6=7D7AAF
+dim7=8A8A8A
+
+urls=E3CF65

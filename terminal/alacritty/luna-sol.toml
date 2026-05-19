@@ -1,0 +1,75 @@
+# Luna Sol – sol variant (golden-yellow accent)
+# Alacritty theme  (TOML format, Alacritty ≥ 0.12)
+#
+# Place in ~/.config/alacritty/themes/luna-sol.toml
+# Then in alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/luna-sol.toml"]
+
+[colors.primary]
+background = "#1B1D26"
+foreground = "#D7D7D7"
+dim_foreground = "#5E6173"
+bright_foreground = "#E9E9E9"
+
+[colors.cursor]
+text   = "#D7D7D7"
+cursor = "#AEAFAD"
+
+[colors.vi_mode_cursor]
+text   = "#D7D7D7"
+cursor = "#D4B96A"
+
+[colors.search.matches]
+foreground = "#555B6C"
+background = "#D4956A"
+
+[colors.search.focused_match]
+foreground = "#1B1D26"
+background = "#D4956A"
+
+[colors.hints.start]
+foreground = "#1B1D26"
+background = "#D4B96A"
+
+[colors.hints.end]
+foreground = "#1B1D26"
+background = "#8DBBD3"
+
+[colors.selection]
+text       = "#495163"
+background = "#5E697E"
+
+[colors.normal]
+black   = "#14161D"
+red     = "#D4956A"   # keyword / amber
+green   = "#74C7A4"
+yellow  = "#E3CF65"
+blue    = "#8DBBD3"
+magenta = "#D4B96A"   # accent1 (golden yellow)
+cyan    = "#AF98E6"
+white   = "#D7D7D7"
+
+[colors.bright]
+black   = "#272932"
+red     = "#D95555"
+green   = "#76C5A4"
+yellow  = "#E39A65"
+blue    = "#6CAEC0"
+magenta = "#E0828D"
+cyan    = "#8DBBD3"
+white   = "#E9E9E9"
+
+[colors.dim]
+black   = "#14161D"
+red     = "#9A6A48"
+green   = "#5A9980"
+yellow  = "#A8984A"
+blue    = "#6A8E9E"
+magenta = "#9A8A50"
+cyan    = "#7D7AAF"
+white   = "#8A8A8A"
+
+[colors.footer_bar]
+foreground = "#D7D7D7"
+background = "#14161D"

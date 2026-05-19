@@ -1,0 +1,58 @@
+# Luna – default variant (soft-red accent)
+# Foot terminal theme  (foot ≥ 1.8)
+#
+# Place in ~/.config/foot/themes/luna
+# Then in foot.ini:
+#   [colors]
+#   alpha=1.0
+#   include=~/.config/foot/themes/luna
+
+[colors]
+# Colour values are RRGGBB (no leading #)
+# alpha channel can be added as AARRGGBB
+
+background=1B1D26
+foreground=D7D7D7
+
+# Selection
+selection-background=5E697E
+selection-foreground=495163
+
+# Cursor
+# (foot uses the foreground colour for cursor text by default)
+
+# Regular colours
+regular0=14161D   # black
+regular1=E07070   # red   (keyword / soft-red)
+regular2=74C7A4   # green (functions)
+regular3=E3CF65   # yellow (strings)
+regular4=8DBBD3   # blue  (types)
+regular5=C97070   # magenta (accent1 / soft red)
+regular6=AF98E6   # cyan  (boolean / purple)
+regular7=D7D7D7   # white (foreground)
+
+# Bright colours
+bright0=272932    # bright black (black1)
+bright1=D95555    # bright red   (error)
+bright2=76C5A4    # bright green
+bright3=E39A65    # bright yellow (warning orange)
+bright4=6CAEC0    # bright blue  (diff change)
+bright5=E0828D    # bright magenta (orange)
+bright6=8DBBD3    # bright cyan  (blue_type)
+bright7=E9E9E9    # bright white
+
+# Dim colours (foot 1.14+)
+dim0=14161D
+dim1=A05050
+dim2=5A9980
+dim3=A8984A
+dim4=6A8E9E
+dim5=9A5858
+dim6=7D7AAF
+dim7=8A8A8A
+
+# 16-colour extended
+# (foot uses bright0-7 for colours 8-15 automatically)
+
+# URL underline colour
+urls=E3CF65
