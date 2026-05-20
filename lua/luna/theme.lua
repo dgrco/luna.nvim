@@ -68,7 +68,7 @@ function M.setup(colors)
     Search        = { fg = c.line_nr, bg = c.orange },
     IncSearch     = { fg = c.bg, bg = c.orange },
     Substitute    = { fg = c.gray2, bg = c.orange },
-    MatchParen    = { fg = c.white1, bg = c.black },
+    MatchParen    = { fg = c.white1, bg = c.gray1, bold = true },
     MatchParenCur = { underline = true },
     MatchWord     = { underline = true },
     MatchWordCur  = { underline = true },
@@ -561,9 +561,9 @@ function M.setup(colors)
     WhichKeySeperator = { fg = c.red_key_w },
     WhichKeyGroup     = { fg = c.pink },
     WhichKeyDesc      = { fg = c.white },
-    WhichKeyFloat     = { bg = c.bg_dark },
+    WhichKeyFloat     = { bg = c.bg_float },
     WhichKeyValue     = { fg = c.comment },
-    WhichKeyBorder    = { fg = c.gray2 },
+    WhichKeyBorder    = { fg = c.gray2, bg = c.black },
 
     -- ─── indent-blankline (v2 & v3) ─────────────────────────────
     IndentBlanklineChar               = { fg = c.black1, nocombine = true },
