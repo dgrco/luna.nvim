@@ -561,6 +561,7 @@ function M.setup(colors)
     WhichKeySeperator = { fg = c.red_key_w },
     WhichKeyGroup     = { fg = c.pink },
     WhichKeyDesc      = { fg = c.white },
+    WhichKeyTitle     = { fg = c.gray2, bg = c.black },
     WhichKeyFloat     = { bg = c.bg_float },
     WhichKeyValue     = { fg = c.comment },
     WhichKeyBorder    = { fg = c.gray2, bg = c.black },
